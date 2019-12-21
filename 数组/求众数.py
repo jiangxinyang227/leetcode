@@ -1,4 +1,5 @@
 """
+众数是指在数组中出现次数大于n/2的元素
 可以用投票的方法实现，时间复杂度O(N)，空间复杂度O(1)
 """
 
@@ -19,6 +20,6 @@ def majority_element(array):
     return temp
 
 
-nums = [3, 2, 3]
+nums = [1, 1, 1, 1, 1, 2, 3, 5, 4]
 res = majority_element(nums)
 print(res)
