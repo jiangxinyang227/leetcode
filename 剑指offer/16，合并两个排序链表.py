@@ -3,6 +3,7 @@
 可以将一个链表中的值插入到另一个链表，并保持顺序
 """
 
+
 class Node(object):
     def __init__(self, val):
         self.val = val
@@ -53,8 +54,3 @@ res = merge(a, b)
 while res:
     print(res.val)
     res = res.next
-
-
-
-
-
