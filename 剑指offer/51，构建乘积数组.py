@@ -5,4 +5,23 @@
 
 
 def multiply(a):
-    pass
+    if not a:
+        return []
+    b = [1] * len(a)
+
+    front_temp = 1
+    for i in range(1, len(a)):
+        front_temp *= a[i - 1]
+        b[i] *= front_temp
+
+    back_temp = 1
+    for j in range(len(a) - 1, 0, -1):
+        back_temp *= a[j]
+        b[j - 1] *= back_temp
+
+    return b
+
+
+array = [1, 2, 3, 4, 5]
+res = multiply(array)
+print(res)
