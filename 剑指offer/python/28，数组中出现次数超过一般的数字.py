@@ -48,10 +48,6 @@ def more_than_half_num_1(numbers):
         return 0
 
 
-
-
 l = [1, 2, 3, 2, 4, 2, 5, 2, 3]
 res = more_than_half_num(l)
 print(res)
-
-

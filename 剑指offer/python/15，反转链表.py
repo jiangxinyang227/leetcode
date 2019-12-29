@@ -16,17 +16,14 @@ def reverse_list(head):
 
     pre = head
     cur = head.next
-    while cur.next:
+    while cur:
         pre.next = cur.next
         cur.next = head
 
         head = cur
         cur = pre.next
 
-    pre.next = cur.next
-    cur.next = head
-
-    return cur
+    return head
 
 
 a = Node(1)
