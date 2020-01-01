@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1e7cc0-a3ea-4c79-931c-e1fe0b807113" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/热题HOT100/简单/581，最短无序连续子数组.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/热题HOT100/简单/121，买卖股票的最佳时机.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/热题HOT100/简单/136，只出现一次的数字.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/热题HOT100/简单/155，最小栈.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/剑指offer/20，包含min函数的栈.py" beforeDir="false" afterPath="$PROJECT_DIR$/剑指offer/20，包含min函数的栈.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,35 +31,44 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="82" />
+          <entry key="py" value="89" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="82" />
+          <entry key="Python" value="89" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="py" value="20496" />
+          <entry key="py" value="20715" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="20496" />
+          <entry key="Python" value="20715" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/热题HOT100/简单/581，最短无序连续子数组.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/热题HOT100/简单/136，只出现一次的数字.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="42" column="20" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="42" selection-end-column="20" />
+            <state relative-caret-position="170">
+              <caret line="26" column="19" selection-start-line="23" selection-start-column="8" selection-end-line="26" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/热题HOT100/简单/121，买卖股票的最佳时机.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -90,7 +100,6 @@
         <option value="$PROJECT_DIR$/链表/反转链表.py" />
         <option value="$PROJECT_DIR$/链表/两数相加.py" />
         <option value="$PROJECT_DIR$/链表/删除链表的倒数第N个节点.py" />
-        <option value="$PROJECT_DIR$/剑指offer/20，包含min函数的栈.py" />
         <option value="$PROJECT_DIR$/剑指offer/21，栈的压入，弹出序列.py" />
         <option value="$PROJECT_DIR$/剑指offer/22，从上往下打印二叉树.py" />
         <option value="$PROJECT_DIR$/剑指offer/二叉搜索树的后序遍历序列.py" />
@@ -121,6 +130,10 @@
         <option value="$PROJECT_DIR$/热题HOT100/简单/226，反转二叉树.py" />
         <option value="$PROJECT_DIR$/热题HOT100/简单/198，打家劫舍.py" />
         <option value="$PROJECT_DIR$/热题HOT100/简单/581，最短无序连续子数组.py" />
+        <option value="$PROJECT_DIR$/剑指offer/20，包含min函数的栈.py" />
+        <option value="$PROJECT_DIR$/热题HOT100/简单/155，最小栈.py" />
+        <option value="$PROJECT_DIR$/热题HOT100/简单/136，只出现一次的数字.py" />
+        <option value="$PROJECT_DIR$/热题HOT100/简单/121，买卖股票的最佳时机.py" />
       </list>
     </option>
   </component>
@@ -206,8 +219,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21715818" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21715818" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -221,7 +235,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.40381792" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49932975" visible="true" weight="0.4640235" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49932975" visible="true" weight="0.4185022" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -237,31 +251,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/剑指offer/18，二叉树的镜像.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指offer/19，顺时针打印矩阵.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指offer/20，包含min函数的栈.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指offer/21，栈的压入，弹出序列.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-200">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指offer/4，重建二叉树.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2025" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/剑指offer/23，二叉搜索树的后序遍历序列.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -485,6 +474,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="81" column="19" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="81" selection-end-column="19" />
+          <folding>
+            <marker date="1577588364931" expanded="true" signature="828:1172" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -492,6 +484,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <marker date="1577590107219" expanded="true" signature="625:895" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -499,6 +494,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding>
+            <marker date="1577591112371" expanded="true" signature="312:318" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -513,6 +511,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
           <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <marker date="1577601968579" expanded="true" signature="427:487" ph="..." />
+            <marker date="1577601968579" expanded="true" signature="518:712" ph="..." />
+            <marker date="1577601968579" expanded="true" signature="756:761" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -567,8 +570,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/热题HOT100/简单/581，最短无序连续子数组.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
+        <state relative-caret-position="215">
           <caret line="42" column="20" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="42" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/剑指offer/20，包含min函数的栈.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/热题HOT100/简单/155，最小栈.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-464">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/剑指offer/40，数组中只出现一次的数字.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/热题HOT100/简单/136，只出现一次的数字.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="26" column="19" selection-start-line="23" selection-start-column="8" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/热题HOT100/简单/121，买卖股票的最佳时机.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>

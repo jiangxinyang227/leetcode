@@ -1,6 +1,11 @@
 """
-给定一个栈，给出返回其最小值函数，需要O（1）时间实现
-解题思路：用一个最小栈来存储无重复排好序的元素
+设计一个支持 push，pop，top 操作，并能在常数时间内检索到最小元素的栈。
+
+push(x) -- 将元素 x 推入栈中。
+pop() -- 删除栈顶的元素。
+top() -- 获取栈顶元素。
+getMin() -- 检索栈中的最小元素。
+
 """
 
 
@@ -32,16 +37,3 @@ class MinStack:
         if len(self.min_stack) == 0:
             return None
         return self.min_stack[-1]
-
-
-s = Stack()
-s.push(3)
-print(s.min())
-s.push(1)
-s.push(2)
-print(s.min())
-s.push(1)
-print(s.min())
-s.pop()
-s.pop()
-print(s.min())
