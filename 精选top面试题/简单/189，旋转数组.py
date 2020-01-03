@@ -22,3 +22,27 @@
 要求使用空间复杂度为 O(1) 的 原地 算法。
 
 """
+
+
+class Solution:
+    def rotate(self, nums, k):
+        k = k % len(nums)
+        if k == 0:
+            return nums
+        # 第一次反转, 翻转整个序列
+        for i in range(len(nums) // 2):
+            nums[i], nums[len(nums) - i - 1] = nums[len(nums) - i - 1], nums[i]
+
+        # 第二次翻转，翻转前半部分
+        for i in range(k // 2):
+            nums[i], nums[k - i - 1] = nums[k - i - 1], nums[i]
+
+        # 第三次反转，翻转后半部分
+        for i in range(k, (k + len(nums)) // 2):
+            nums[i], nums[len(nums) + k - i - 1] = nums[len(nums) + k - i - 1], nums[i]
+
+
+array = [1, 2, 3]
+s = Solution()
+s.rotate(array, 4)
+print(array)
