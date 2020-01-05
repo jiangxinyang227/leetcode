@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1e7cc0-a3ea-4c79-931c-e1fe0b807113" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/腾讯精选练习/简单/231，2的幂.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/腾讯精选练习/简单/235，二叉搜索树的最近公共祖先.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/腾讯精选练习/简单/292，Nim游戏.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/腾讯精选练习/中等/230，二叉搜索树中第k小的元素.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/腾讯精选练习/中等/238，除自身以外数组的乘积.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/腾讯精选练习/中等/59，螺旋矩阵2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,38 +17,38 @@
     <session id="-1683234869">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="5" />
-          <entry key="project.open.time.8" value="4" />
+          <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="104" />
+          <entry key="py" value="107" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="104" />
+          <entry key="Python" value="107" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="py" value="25871" />
+          <entry key="py" value="27566" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="25871" />
+          <entry key="Python" value="27566" />
         </counts>
       </usages-collector>
     </session>
@@ -56,67 +56,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/精选top面试题/简单/217，存在重复元素.py">
+        <entry file="file://$PROJECT_DIR$/腾讯精选练习/中等/59，螺旋矩阵2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+            <state relative-caret-position="185">
+              <caret line="47" column="21" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="47" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/精选top面试题/简单/204，计算质数.py">
+        <entry file="file://$PROJECT_DIR$/腾讯精选练习/中等/238，除自身以外数组的乘积.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-45">
-              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-              <folding>
-                <marker date="1578141848646" expanded="true" signature="156:329" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/精选top面试题/简单/387，字符串中的第一个唯一字符.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/腾讯精选练习/简单/557，反转字符串中的单词3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/腾讯精选练习/简单/292，Nim游戏.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/腾讯精选练习/简单/231，2的幂.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+            <state relative-caret-position="285">
+              <caret line="25" column="21" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="25" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/腾讯精选练习/简单/235，二叉搜索树的最近公共祖先.py">
+        <entry file="file://$PROJECT_DIR$/腾讯精选练习/中等/230，二叉搜索树中第k小的元素.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+            <state relative-caret-position="310">
+              <caret line="65" column="30" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="65" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -136,9 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/链表/删除链表的倒数第N个节点.py" />
-        <option value="$PROJECT_DIR$/剑指offer/21，栈的压入，弹出序列.py" />
-        <option value="$PROJECT_DIR$/剑指offer/22，从上往下打印二叉树.py" />
         <option value="$PROJECT_DIR$/剑指offer/二叉搜索树的后序遍历序列.py" />
         <option value="$PROJECT_DIR$/剑指offer/23，二叉搜索树的后序遍历序列.py" />
         <option value="$PROJECT_DIR$/剑指offer/31，整数中1出现的次数.py" />
@@ -187,6 +145,9 @@
         <option value="$PROJECT_DIR$/腾讯精选练习/简单/292，Nim游戏.py" />
         <option value="$PROJECT_DIR$/腾讯精选练习/简单/231，2的幂.py" />
         <option value="$PROJECT_DIR$/腾讯精选练习/简单/235，二叉搜索树的最近公共祖先.py" />
+        <option value="$PROJECT_DIR$/腾讯精选练习/中等/59，螺旋矩阵2.py" />
+        <option value="$PROJECT_DIR$/腾讯精选练习/中等/238，除自身以外数组的乘积.py" />
+        <option value="$PROJECT_DIR$/腾讯精选练习/中等/230，二叉搜索树中第k小的元素.py" />
       </list>
     </option>
   </component>
@@ -216,18 +177,7 @@
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="精选top面试题" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="腾讯精选练习" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="腾讯精选练习" type="462c0819:PsiDirectoryNode" />
-              <item name="简单" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -277,8 +227,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14745308" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1494638" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -292,7 +243,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.40381792" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49932975" visible="true" weight="0.27900147" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49932975" visible="true" weight="0.36123347" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -308,27 +259,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/动态规划/判断子序列.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/动态规划/打家劫舍.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/动态规划/爬楼梯.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/剑指offer/31，整数中1出现的次数.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -616,14 +546,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/精选top面试题/简单/217，存在重复元素.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
+        <state relative-caret-position="625">
           <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/精选top面试题/简单/204，计算质数.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
+        <state relative-caret-position="425">
           <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding>
             <marker date="1578141848646" expanded="true" signature="156:329" ph="..." />
@@ -633,28 +563,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/精选top面试题/简单/387，字符串中的第一个唯一字符.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="725">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/腾讯精选练习/简单/557，反转字符串中的单词3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        <state relative-caret-position="625">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/腾讯精选练习/简单/292，Nim游戏.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
+        <state relative-caret-position="325">
           <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/腾讯精选练习/简单/231，2的幂.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
+        <state relative-caret-position="1050">
           <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
         </state>
       </provider>
@@ -663,6 +593,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/腾讯精选练习/中等/59，螺旋矩阵2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="47" column="21" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="47" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/腾讯精选练习/中等/238，除自身以外数组的乘积.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/腾讯精选练习/中等/230，二叉搜索树中第k小的元素.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="65" column="30" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="65" selection-end-column="30" />
         </state>
       </provider>
     </entry>
