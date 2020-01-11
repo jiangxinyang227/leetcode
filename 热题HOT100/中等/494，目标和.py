@@ -23,8 +23,27 @@
 初始的数组的和不会超过1000。
 保证返回的最终结果能被32位整数存下。
 
+先给一个式子证明
+sum(P) - sum(N) = target
+sum(P) + sum(N) + sum(P) - sum(N) = sum(nums) + target
+sum(P) = (sum(nums) + target) / 2
+所以当sum(nums) + target为奇数得时候，是找不到sum(P)的
+
 """
 
 
 class Solution:
-    def findTargetSumWays(self, nums, S: int) -> int:
+    def findTargetSumWays(self, nums, S):
+        if sum(nums) < S or (sum(nums) + S) % 2 == 1:
+            return 0
+        P = (sum(nums) + S) // 2
+        dp = [1] + [0 for _ in range(P)]
+        for num in nums:
+            for j in range(P, num - 1, -1):
+                dp[j] += dp[j - num]
+        return dp[P]
+
+
+s = Solution()
+res = s.findTargetSumWays(nums=[1, 1, 1, 1, 1], S=3)
+print(res)
