@@ -31,7 +31,6 @@ class Solution:
             while i - strip >= 0 and i + strip < len(new_s) and new_s[i - strip:i + strip + 1] == new_s[
                                                                                                   i - strip:i + strip + 1][
                                                                                                   ::-1]:
-                print(new_s[i - strip: i + strip + 1])
                 answer = new_s[i - strip:i + strip + 1]
                 strip += 1
 
@@ -42,7 +41,26 @@ class Solution:
 
         return a
 
+    def longestPalindrome1(self, s: str) -> str:
+        length = len(s)
+
+        result = ""
+
+        for center in range(2 * length - 1):
+            left = center // 2
+            right = left + center % 2
+
+            while left >= 0 and right < length and s[left] == s[right]:
+                if right - left + 1 > len(result):
+
+                    result = s[left:right + 1]
+                left -= 1
+                right += 1
+        return result
+
 
 s = Solution()
 res = s.longestPalindrome("abadbbd")
+res1 = s.longestPalindrome1("abadbbd")
 print(res)
+print(res1)
