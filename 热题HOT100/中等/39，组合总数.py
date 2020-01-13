@@ -27,7 +27,28 @@ candidates 中的数字可以无限制重复被选取。
 
 """
 
+import copy
+
 
 class Solution:
     def combinationSum(self, candidates, target: int):
-        pass
+        result = []
+        path = []
+        self.back_track(result, candidates, path, target)
+        return result
+
+    def back_track(self, result, candidates, path, target):
+        for i in range(len(candidates)):
+            if sum(path) + candidates[i] > target:
+                continue
+            path.append(candidates[i])
+            if sum(path) < target:
+                self.back_track(result, candidates[i:], path, target)
+            elif sum(path) == target:
+                result.append(copy.deepcopy(path))
+            path.pop()
+
+
+s = Solution()
+res = s.combinationSum([2, 3, 6, 7], 7)
+print(res)

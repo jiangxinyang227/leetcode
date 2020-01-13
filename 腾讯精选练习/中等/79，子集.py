@@ -20,8 +20,13 @@
 
 """
 
+import copy
+
 
 class Solution:
+    def __init__(self):
+        self.result = []
+
     def subsets(self, nums):
         res = []
         n = len(nums)
@@ -35,7 +40,28 @@ class Solution:
         helper(0, [])
         return res
 
+    def subsets1(self, nums):
+        """
+        回溯法求解
+        1, self.result：用来存储所有的解
+        2，path：一个来存储临时可能的解
+        3，index：控制模型的下一个选择
+        4，path.pop()：往上一步回溯
+        :param nums:
+        :return:
+        """
+        self.back_track([], nums, 0)
+        return self.result
+
+    def back_track(self, path, nums, index):
+        temp = copy.deepcopy(path)
+        self.result.append(temp)
+        for i in range(index, len(nums)):
+            path.append(nums[i])
+            self.back_track(path, nums, i + 1)
+            path.pop()
+
 
 s = Solution()
-res = s.subsets([1, 2, 3])
+res = s.subsets1([1, 2, 3])
 print(res)
