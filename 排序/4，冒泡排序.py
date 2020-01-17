@@ -8,7 +8,6 @@ def bubble_sort(nums):
         for j in range(i):
             if nums[j] > nums[j + 1]:
                 nums[j], nums[j + 1] = nums[j + 1], nums[j]
-    return nums
 
 
 array = [3, 2, 4, 5, 1, 6]
