@@ -1,8 +1,5 @@
-//
-// Created by Jiang,Xinyang on 2020/7/28.
-//
-
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
