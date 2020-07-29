@@ -17,7 +17,3 @@ def cut_rope(length):
     timeOf2 = (length - timesOf3 * 3) // 2
     result = pow(3, timesOf3) * pow(2, timeOf2)
     return result
-
-
-
-

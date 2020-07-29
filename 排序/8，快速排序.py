@@ -5,7 +5,7 @@
 
 def partition(nums, left, right):
     pivot_val = nums[right]
-    split_index = left
+    split_index = left  # split_index会一直指在第一个大于pivot_val上或者前面
     for i in range(left, right):
         if nums[i] < pivot_val:
             nums[i], nums[split_index] = nums[split_index], nums[i]

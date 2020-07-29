@@ -25,6 +25,34 @@ def my_permutation(s):
     return ret
 
 
-text = "aabc"
+import copy
+
+
+class Solution:
+    def Permutation(self, ss):
+        # write code here
+        result = []
+        path = []
+
+        self.back_trace(result, path, ss, len(ss))
+        return result
+
+    def back_trace(self, result, path, ss, length):
+        for i in range(len(ss)):
+            if i > 0 and ss[i] == ss[i - 1]:
+                continue
+            path.append(ss[i])
+            if len(path) == length:
+                result.append("".join(path))
+            else:
+                self.back_trace(result, path, ss[:i] + ss[i + 1:], length)
+            path.pop()
+
+
+text = "abca"
 res = my_permutation(text)
 print(res)
+
+s = Solution()
+res1 = s.Permutation(text)
+print(res1)

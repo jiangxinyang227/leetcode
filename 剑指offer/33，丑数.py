@@ -27,6 +27,30 @@ def get_ugly_number(index):
     return all_num[-1]
 
 
+class Solution:
+    def GetUglyNumber_Solution(self, index):
+        # write code here
+        if index == 0:
+            return None
+        result = [1]
+        index2, index3, index5 = 0, 0, 0
+        total = 1
+        while total < index:
+            min_val = min(result[index2] * 2, result[index3] * 3, result[index5] * 5)
+            result.append(min_val)
+            if result[index2] * 2 <= min_val:
+                index2 += 1
+            if result[index3] * 3 <= min_val:
+                index3 += 1
+            if result[index5] * 5 <= min_val:
+                index5 += 1
+            total += 1
+        return result[-1]
+
+
 n = 7
 res = get_ugly_number(n)
 print(res)
+s = Solution()
+res1 = s.GetUglyNumber_Solution(7)
+print(res1)

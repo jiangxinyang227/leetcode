@@ -6,19 +6,17 @@
 
 
 class Solution:
+    def IsBalanced_Solution(self, pRoot):
+        # write code here
+        if pRoot is None:
+            return True
+        left_depth = self.tree_depth(pRoot.left)
+        right_depth = self.tree_depth(pRoot.right)
+        if abs(left_depth - right_depth) > 1:
+            return False
+        return self.IsBalanced_Solution(pRoot.left) and self.IsBalanced_Solution(pRoot.right)
 
-    def __init__(self):
-        self.flag = True
-
-    def is_balance(self, root):
-        self.tree_iteration(root)
-        return self.flag
-
-    def tree_iteration(self, root):
-        if not root or not self.flag:
+    def tree_depth(self, root):
+        if root is None:
             return 0
-        left = self.tree_iteration(root.left)
-        right = self.tree_iteration(root.right)
-        if abs(left - right) > 1:
-            self.flag = False
-        return left + 1 if left > right else right + 1
+        return max(self.tree_depth(root.left), self.tree_depth(root.right)) + 1

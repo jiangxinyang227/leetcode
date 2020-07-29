@@ -3,26 +3,22 @@
 """
 
 
-def power(base, exp):
-    if base == exp == 0:
-        return None
+class Solution:
+    def power(self, base, exponent):
+        if exponent < 0:
+            return 1 / self.power_value(base, -exponent)
+        return self.power_value(base, exponent)
 
-    if exp >= 0:
-        return power_value(base, exp)
-    else:
-        return 1 / power_value(base, abs(exp))
+    def power_value(self, base, exponent):
+        if exponent == 0:
+            return 1
+        if exponent == 1:
+            return base
 
-
-def power_value(base, exp):
-    if exp == 1:
-        return base
-    if exp == 0:
-        return 1
-    if exp % 2 == 0:
-        return power_value(base, exp >> 1) ** 2
-    else:
-        return base * power_value(base, exp >> 1) ** 2
+        mid = exponent // 2
+        return self.power_value(base, mid) * self.power_value(base, exponent - mid)
 
 
-for i in range(5):
-    print(power(2, i))
+s = Solution()
+res = s.power(2.0000, -2)
+print(res)

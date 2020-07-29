@@ -11,10 +11,8 @@ def find_kth_largest(nums, k):
         :param right:
         :return:
         """
-        pivot = nums[left]
+        pivot = nums[right]
 
-        # 先将pivot和最后的值交换
-        nums[left], nums[right] = nums[right], nums[left]
         store_index = left  # 用来确定之后pivot放置的位置，而且该位置的值是大于pivot的，因为一开始就会和pivot做对比
         for i in range(left, right):
             if nums[i] < pivot:

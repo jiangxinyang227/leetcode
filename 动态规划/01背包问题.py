@@ -35,7 +35,6 @@ def super_bag(c, w, v):
     for i in range(n):
         for j in range(c, w[i] - 1, -1):
             dp[j] = max(dp[j], dp[j - w[i]] + v[i])
-        print(dp)
     return dp[-1]
 
 

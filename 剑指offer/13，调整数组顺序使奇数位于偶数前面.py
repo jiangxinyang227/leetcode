@@ -15,4 +15,18 @@ def reorder_array(array):
     return odd + even
 
 
+class Solution:
+    def reOrderArray(self, array):
+        for i in range(1, len(array)):
+            if array[i] % 2 and array[i-1] % 2 == 0:
+                for j in range(i, 0, -1):
+                    if array[j-1] % 2 == 0:
+                        array[j], array[j-1] = array[j-1], array[j]
+        return array
+
+
+s = Solution()
+res = s.reOrderArray([1, 3, 5, 2, 4, 8, 7])
+print(res)
+
 

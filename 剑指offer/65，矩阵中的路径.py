@@ -10,23 +10,22 @@ class Solution:
     def has_path(self, matrix, rows, cols, path):
         for ri in range(rows):
             for ci in range(cols):
-                if matrix[ri*cols+ci] == path[0]:
-                    if self.find(list(matrix), rows, cols, path[1:], ri, ci):
-                        return True
+                mask = [0] * (rows * cols)
+                if self.find(list(matrix), rows, cols, path, ri, ci, mask, 0):
+                    return True
         return False
 
-    def find(self, matrix, rows, cols, path, ri, ci):
-        if not path:
+    def find(self, matrix, rows, cols, path, ri, ci, mask, index):
+        if not (0 <= ci < cols - 1 and 0 <= ri < rows - 1):
+            return False
+        if mask[ri * cols + ci] != 0:
+            return False
+        if index == len(path):
             return True
-        matrix[ri*cols+ci] = '0'
-        if ci < cols-1 and matrix[ri*cols+(ci+1)] == path[0]:
-            return self.find(matrix, rows, cols, path[1:], ri, ci+1)
-        elif ci > 0 and matrix[ri * cols + (ci - 1)] == path[0]:
-            return self.find(matrix, rows, cols, path[1:], ri, ci-1)
-        elif ri < rows - 1 and matrix[(ri + 1) * cols + ci] == path[0]:
-            return self.find(matrix, rows, cols, path[1:], ri+1, ci)
-        elif ri > 0 and matrix[(ri-1)*cols+ci] == path[0]:
-            return self.find(matrix, rows, cols, path[1:], ri-1, ci)
+        if matrix[ri * cols + ci] == path[index]:
+            mask[ri * cols + ci] = 1
+        if self.find(matrix, rows, cols, path, ri, ci + 1, mask, index + 1) or self.find(matrix, rows, cols, path, ri, ci - 1, mask, index + 1) or self.find(matrix, rows, cols, path, ri + 1, ci, mask, index + 1) or self.find(matrix, rows, cols, path, ri - 1, ci, mask, index + 1):
+            return True
         else:
             return False
 

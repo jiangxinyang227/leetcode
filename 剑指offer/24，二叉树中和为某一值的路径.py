@@ -47,6 +47,31 @@ def find_path_1(root, expect_number):
     return result
 
 
+import copy
+
+
+class Solution:
+    # 返回二维列表，内部每个列表表示找到的路径
+    def FindPath(self, root, expectNumber):
+        # write code here
+        result = []
+        path = []
+        if root is None:
+            return result
+        self.back_trace(result, path, root, expectNumber)
+        return result
+
+    def back_trace(self, result, path, root, expectNumber):
+        path.append(root.val)
+        if sum(path) == expectNumber and root.left is None and root.right is None:
+            result.append(copy.deepcopy(path))
+        if root.left:
+            self.back_trace(result, path, root.left, expectNumber)
+        if root.right:
+            self.back_trace(result, path, root.right, expectNumber)
+        path.pop()
+
+
 a = TreeNode(1)
 b = TreeNode(2)
 c = TreeNode(3)

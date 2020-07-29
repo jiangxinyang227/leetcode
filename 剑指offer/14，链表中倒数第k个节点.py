@@ -28,6 +28,27 @@ def find_kth_to_tail(head, k):
     return low.val
 
 
+class Solution:
+    def FindKthToTail(self, head, k):
+        # write code here
+        if head is None:
+            return None
+
+        slow = head
+        fast = head
+
+        for i in range(k):
+            if fast is None:
+                return None
+            fast = fast.next
+
+        while fast:
+            slow = slow.next
+            fast = fast.next
+
+        return slow.val
+
+
 a = Node(1)
 b = Node(2)
 c = Node(3)
@@ -41,5 +62,8 @@ d.next = e
 e.next = f
 
 
-res = find_kth_to_tail(a, 1)
+res = find_kth_to_tail(a, 2)
+s = Solution()
+res1 = s.FindKthToTail(a, 4)
 print(res)
+print(res1)

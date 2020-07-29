@@ -7,17 +7,33 @@
 """
 
 
-def print_min_numbers(numbers):
-    if numbers is None or len(numbers) == 0:
-        return ""
-    numbers = list(map(str, numbers))
-    pivot = numbers[0]
-    less = [i for i in numbers[1:] if (pivot + i) > (i + pivot)]
-    great = [i for i in numbers[1:] if (pivot + i) <= (i + pivot)]
-    result = "".join(print_min_numbers(less)) + pivot + "".join(print_min_numbers(great))
-    return result.lstrip("0")
+class Solution:
+    def PrintMinNumber(self, numbers):
+        # write code here
+        if numbers is None or len(numbers) == 0:
+            return ""
+        self.quick_sort(0, len(numbers) - 1, numbers)
+        return "".join(list(map(str, numbers)))
+
+    def quick_sort(self, left, right, numbers):
+        if left < right:
+            store_index = self.partition(left, right, numbers)
+            self.quick_sort(left, store_index-1, numbers)
+            self.quick_sort(store_index, right, numbers)
+
+    def partition(self, left, right, numbers):
+        pivot = numbers[right]
+        store_index = left
+
+        for i in range(left, right):
+            if str(numbers[i]) + str(pivot) <= str(pivot) + str(numbers[i]):
+                numbers[i], numbers[store_index] = numbers[store_index], numbers[i]
+                store_index += 1
+        numbers[store_index], numbers[right] = numbers[right], numbers[store_index]
+        return store_index
 
 
-a = [321, 3, 32]
-res = print_min_numbers(a)
+a = [1, 11, 111]
+s = Solution()
+res = s.PrintMinNumber(a)
 print(res)

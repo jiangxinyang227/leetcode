@@ -20,5 +20,22 @@ def last_remaining(n, m):
     return last
 
 
+def func(n, m):
+    """
+    按顺序返回报数的孩子
+    :param n:
+    :param m:
+    :return:
+    """
+    array = list(range(1, n + 1))
+    result = []
+
+    i = 0
+    while array:
+        i = (m + i - 1) % len(array)
+        result.append(array.pop(i))
+    return result
+
+
 res = last_remaining(11, 4)
 print(res)

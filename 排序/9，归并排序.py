@@ -8,15 +8,10 @@ def merge(nums, left, mid, right):
         else:
             temp.append(nums[j])
             j += 1
-    if i <= mid:
-        while i <= mid:
-            temp.append(nums[i])
-            i += 1
-    else:
-        while j <= right:
-            temp.append(nums[j])
-            j += 1
 
+    temp += nums[i:mid+1] or nums[j: right+1]
+
+    # 拍完序后替换之前的数组
     for k in range(left, right + 1):
         nums[k] = temp[k - left]
 

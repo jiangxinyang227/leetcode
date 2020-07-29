@@ -39,11 +39,41 @@ def partition(left, right, nums):
     return store_index
 
 
+class Solution:
+    def GetLeastNumbers_Solution(self, tinput, k):
+        # write code here
+        if not tinput:
+            return []
+        left = 0
+        right = len(tinput) - 1
+        while left < right:
+            store_index = self.partition(left, right, tinput)
+            if store_index == k:
+                return tinput[:store_index]
+            elif store_index < k:
+                left = store_index + 1
+            else:
+                right = store_index - 1
+
+    def partition(self, left, right, tinput):
+        pivot = tinput[right]
+        store_index = left
+
+        for i in range(left, right):
+            if tinput[i] < pivot:
+                tinput[i], tinput[store_index] = tinput[store_index], tinput[i]
+                store_index += 1
+        tinput[store_index], tinput[right] = tinput[right], tinput[store_index]
+        return store_index
+
+
 numbers = [4, 5, 1, 6, 2, 7, 3, 8]
 result = get_least_numbers(numbers, 6)
 print(numbers)
 print(result)
 
 
-
+s = Solution()
+res = s.GetLeastNumbers_Solution(numbers, 4)
+print(res)
 
